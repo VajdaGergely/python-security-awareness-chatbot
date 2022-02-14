@@ -32,7 +32,7 @@ Future plans
   * fully automated operation with infinite targets
 
 
-Disclamer
+<h1>Disclamer</h1>
   * Any misuse of the application will not be the responsibility of the author.
   * Chatbot generates fake identities by combining the most common US family names,
 cities and other parameters from public top 100 lists. Any correspondence to real life persons is just statistical coincidence.
