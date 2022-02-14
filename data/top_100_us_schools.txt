@@ -1,0 +1,100 @@
+Stanford University 
+Harvard University 
+California Institute of Technology - Caltech 
+Massachusetts Institute of Technology (MIT) 
+University of California, Berkeley 
+Yale University 
+Princeton University 
+University of Chicago 
+Johns Hopkins University 
+University of Pennsylvania 
+University of California, Los Angeles (UCLA) 
+Columbia University 
+Cornell University 
+Duke University 
+University of Michigan 
+Northwestern University 
+New York University 
+Carnegie Mellon University 
+University of Washington 
+University of California, San Diego 
+Georgia Institute of Technology 
+University of Texas at Austin 
+University of Illinois at Urbana Champaign 
+University of Wisconsin Madison 
+Washington University in St. Louis 
+University of Southern California 
+University of North Carolina Chapel Hill 
+Brown University 
+University of California, Davis 
+University of California, Santa Barbara 
+The Ohio State University 
+Emory University 
+University of Minnesota 
+University of Maryland 
+Purdue University 
+University of California, Irvine (UCI) 
+Dartmouth College 
+Michigan State University 
+Vanderbilt University 
+Pennsylvania State University 
+University of Virginia 
+Georgetown University 
+Case Western Reserve University 
+Rice University 
+The University of Arizona 
+University of Colorado at Boulder 
+University of Pittsburgh 
+Indiana University Bloomington 
+University of Rochester 
+University of Florida 
+Tufts University 
+Rutgers University 
+The University of Alabama at Birmingham 
+University of Notre Dame 
+Boston University 
+Arizona State University 
+George Washington University 
+Texas A&M University 
+Brandeis University 
+Howard University 
+The University of Iowa 
+University of California, Santa Cruz 
+University of Hawaii at Manoa 
+University of Massachusetts Boston 
+University of South Florida 
+University of Utah 
+Virginia Tech 
+College of William & Mary 
+Florida State University 
+George Mason University 
+Nova Southeastern University 
+Oregon Health & Science University 
+The University of New Mexico 
+University at Albany 
+University at Buffalo 
+University of California, Riverside 
+University of Cincinnati 
+University of Illinois at Chicago 
+Wake Forest University 
+Boston College 
+Illinois Institute of Technology 
+North Carolina State University 
+Rush University 
+Stony Brook University 
+Syracuse University 
+Temple University 
+Tulane University 
+University of California, Merced 
+University of Delaware 
+University of Oregon 
+University of Tennessee Knoxville 
+University of Texas at Dallas 
+Washington State University 
+Drexel University 
+University of Kansas 
+Wayne State University 
+University of Denver 
+American University Washington DC 
+Clark University 
+Colorado School of Mines 
