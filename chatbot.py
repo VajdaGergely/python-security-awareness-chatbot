@@ -6,8 +6,7 @@ import string
 from datetime import date
 import time
 
-url = "http://127.0.0.1:8080/index.php"
-proxy_settings = {"http" : "http://localhost:8090"}
+url = "http://127.0.0.1/index.php"
 
 identity = {
 	"logname" : "",
@@ -280,7 +279,7 @@ def time_delay(min_sec, rand_max):
 	time.sleep(delay)
 
 def get_page():
-	response = requests.get(url, proxies = proxy_settings)
+	response = requests.get(url)
 	
 	#hogyha a page letoltese utan automatikusan lefutnak ajax keresek
 	#akkor azokat itt nekunk is le kell futtatni
@@ -300,7 +299,7 @@ def register_to_site():
 		"intro" : identity["intro"]
 	}
 	time_delay(60, 60)
-	response = requests.post(url + "/register", json = data, proxies = proxy_settings)
+	response = requests.post(url + "/register", json = data)
 	
 	#hibakat kezeljuk le
 	#ha mar foglalt a logname vagy az alias, azt is kezeljuk szepen!!!
@@ -311,7 +310,7 @@ def register_to_site():
 	
 def login_to_site(logname, password):
 	time_delay(5, 10)
-	response = requests.post(url + "/login", json = {"logname" : logname, "pass" : password}, proxies = proxy_settings)
+	response = requests.post(url + "/login", json = {"logname" : logname, "pass" : password})
 	print("[+] Login was successful to site!")
 	#if...
 	#print("[-] Error. Can't login with given credentials!")
@@ -327,7 +326,7 @@ def set_dummy_victim():
 
 def get_user_details:
 	time_delay(5, 10)
-	response = requests.post(url + "/get/user", json = {"id" : "23745723768423", proxies = proxy_settings)
+	response = requests.post(url + "/get/user", json = {"id" : "23745723768423"})
 	print("[+] Victim data downloaded successfully!")
 	#if...
 	#print("[-] Error. Can't download victim data!")
@@ -376,7 +375,7 @@ def start_scamming():
 	
 	while True:
 		#send message
-		response = requests.post(url + "/create/message", json = {"id" : "23232343523", "text" : messages[i]}, proxies = proxy_settings)
+		response = requests.post(url + "/create/message", json = {"id" : "23232343523", "text" : messages[i]})
 		print("Bot: " + messages[i])
 		
 		#waiting for answer
@@ -385,7 +384,7 @@ def start_scamming():
 		while True:
 			#itt a time delay-t bonyolult modon fogjuk kiszamolni!!!
 			time_delay(5, 10)
-			response = requests.post(url + "/get/message", json = {"id" : "23232343523"}, proxies = proxy_settings)
+			response = requests.post(url + "/get/message", json = {"id" : "23232343523"})
 			#if response shows new message then break else keep waiting
 			#user_msg = response[valami]
 			#time.sleep(calc_delay_after_get_msg(user_msg, bot_msg), 1)
